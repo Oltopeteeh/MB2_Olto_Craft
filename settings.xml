@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+	<xp_t0>17</xp_t0>	<!-- CharCoal x3 = Wood 25 x2 = 50/3, Coal 16.67 + 0.33 for click -->
+	<xp_t1>23</xp_t1>	<!-- CI x3 = ore 50 + coal 17 = 67/3, CI 22.33 + 0.67 or 1 (without round cost of wood) for click -->
+	<xp_t2>41</xp_t2>	<!-- WI = CI (23) + c (17) +1/click (2,5%) -->
+	<xp_t3>78</xp_t3>	<!-- I  = WI x2  (82) +c-ci (-5) +2/click (2,63%) -->
+	<xp_t4>154</xp_t4>	<!-- S  = I  x2 (156) +c-ci (-5) +4/click (2,67%) -->
+	<xp_t5>310</xp_t5>	<!-- FS = S  x2 (308) +c-ci (-5) +8/click (2,65%) -->
+	<xp_t6>630</xp_t6>	<!-- TS = FS x2 (620) +c-ci (-5) +16/click (2,61%) -->
+</Settings>

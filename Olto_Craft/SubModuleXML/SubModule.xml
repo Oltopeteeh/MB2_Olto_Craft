@@ -1,0 +1,26 @@
+﻿<Module>
+	<Name value="Olto_Craft"/>
+	<Id value="Olto_Craft"/>
+	<Version value="v1.5.5.5"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<SubModules>
+		<SubModule>
+			<Name value="Olto_Craft"/>
+			<DLLName value="Olto_Craft.dll"/>
+			<SubModuleClassType value="Olto_Craft.Olto_Craft_SubModule"/>
+			<Tags/>
+		</SubModule>
+	</SubModules>
+    <Xmls>
+		<XmlNode>
+			<XmlName id="Items" path="items"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+    </Xmls>
+</Module>
